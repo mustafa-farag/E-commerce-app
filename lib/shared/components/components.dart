@@ -276,13 +276,9 @@ Widget buildArticleItem(Map article , context) => InkWell(
             ),
 
           ),
-
         ),
-
       ],
-
     ),
-
   ),
 );
 

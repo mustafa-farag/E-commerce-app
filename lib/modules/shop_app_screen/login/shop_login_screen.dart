@@ -50,7 +50,7 @@ class ShopLoginScreen extends StatelessWidget {
                   padding: const EdgeInsets.all(20.0),
                   child: Form(
                     key: formKey,
-                    child: BounceInDown(
+                    child: FadeInDown(
                       duration: const Duration(milliseconds: 1500),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
