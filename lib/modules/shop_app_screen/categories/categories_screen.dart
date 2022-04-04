@@ -34,7 +34,7 @@ class ShopCategoriesScreen extends StatelessWidget {
             height: 80,
             fit: BoxFit.cover,
             imageErrorBuilder: (context,error,stackTrace){
-              return Image.asset("assets/images/error.jpeg",scale:2 ,);
+              return Image.asset("assets/images/error.jpeg",scale:2 ,width: 80,height: 80,);
             }),
         const SizedBox(width: 10,),
         Text(
